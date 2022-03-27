@@ -11,6 +11,7 @@
   inputs.src-libnx-0_1_8.ref   = "refs/tags/0.1.8";
   inputs.src-libnx-0_1_8.owner = "jyapayne";
   inputs.src-libnx-0_1_8.repo  = "nim-libnx";
+  inputs.src-libnx-0_1_8.dir   = "";
   inputs.src-libnx-0_1_8.type  = "github";
   
   inputs."switch-build".owner = "nim-nix-pkgs";

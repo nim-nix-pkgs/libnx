@@ -11,6 +11,7 @@
   inputs.src-libnx-0_1_6.ref   = "refs/tags/0.1.6";
   inputs.src-libnx-0_1_6.owner = "jyapayne";
   inputs.src-libnx-0_1_6.repo  = "nim-libnx";
+  inputs.src-libnx-0_1_6.dir   = "";
   inputs.src-libnx-0_1_6.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
