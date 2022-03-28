@@ -11,8 +11,15 @@
   inputs.src-libnx-0_1_8.ref   = "refs/tags/0.1.8";
   inputs.src-libnx-0_1_8.owner = "jyapayne";
   inputs.src-libnx-0_1_8.repo  = "nim-libnx";
-  inputs.src-libnx-0_1_8.dir   = "";
   inputs.src-libnx-0_1_8.type  = "github";
+  
+  inputs."nimgen".owner = "nim-nix-pkgs";
+  inputs."nimgen".ref   = "master";
+  inputs."nimgen".repo  = "nimgen";
+  inputs."nimgen".dir   = "v0_5_1";
+  inputs."nimgen".type  = "github";
+  inputs."nimgen".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."nimgen".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   inputs."switch-build".owner = "nim-nix-pkgs";
   inputs."switch-build".ref   = "master";

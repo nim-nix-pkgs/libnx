@@ -11,7 +11,6 @@
   inputs.src-libnx-master.ref   = "refs/heads/master";
   inputs.src-libnx-master.owner = "jyapayne";
   inputs.src-libnx-master.repo  = "nim-libnx";
-  inputs.src-libnx-master.dir   = "";
   inputs.src-libnx-master.type  = "github";
   
   inputs."nimgen".owner = "nim-nix-pkgs";
